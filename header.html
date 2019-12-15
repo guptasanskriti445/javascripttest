@@ -1,0 +1,92 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/header.css" type="text/css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <header class="header">
+            This is header
+        </header>
+        <div class="para">
+            Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.<br>
+
+Bootstrap is completely free to download and use!<br>
+What is Bootstrap?
+Bootstrap is a free front-end framework for faster and easier web development111,<br>
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs<br>
+What is Responsive Web Design?<br>
+
+Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.<br>
+<h2> Bootstrap History</h2>
+Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter, and released as an open source product in August 2011 on GitHub.<br>
+
+In June 2014 Bootstrap was the No.1 project on GitHub!<br>
+
+<h2>Use Bootstrap?</h2> 
+Advantages of Bootstrap:<br>
+
+Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap<br>
+Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops<br>
+Mobile-first approach: In Bootstrap 3, mobile-first styles are part of the core framework<br>
+Browser compatibility: Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Edge, Safari, and Opera)
+<h2>Where to Get Bootstrap?</h2>
+There are two ways to start using Bootstrap on your own web site.<br>
+
+ You can:<br>
+
+Download Bootstrap from getbootstrap.com<br>
+Include Bootstrap from a CDN<br>
+<h4> First Web Page With Bootstrap</h4>
+<h1>Add the HTML5 doctype</h1> 
+
+Bootstrap uses HTML elements and CSS properties that require the HTML5 doctype.<br>
+
+Always include the HTML5 doctype at the beginning of the page, along with the lang attribute and the correct character set:<br>
+<h1> Bootstrap 3 is mobile-first</h1>
+
+Bootstrap 3 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework.<br>
+
+To ensure proper rendering and touch zooming, add the following meta tag inside the head element:<br>
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser.
+
+<h1> Containers</h1>
+
+Bootstrap also requires a containing element to wrap site contents.<br>
+
+There are two container classes to choose from:<br>
+
+1.The .container class provides a responsive fixed width container<br>
+2.The .container-fluid class provides a full width container, spanning the entire width of the viewport<br>
+
+        </div>
+        <div class="dropicon">
+            <button class="icon dropbtn" onclick="dropdown()">
+                    <i   class="glyphicon glyphicon-envelope"></i>
+            </button>
+        </div>
+            <div id="myDropdown" class="dropdown-content" >
+                <div id="myDropdownheader"> <button  type="button" class="pclose" onclick=" dropdownclose()">x</button> </div>
+              
+<!-- <span class="pclose" onclick=" dropdownclose()">x</span>  -->
+E-mail:
+  <input type="email" name="email"><br>
+  User password:
+<input type="password" name="psw"><br>
+  <input type="submit">
+
+            </div>
+
+      
+        
+    </body>
+    <script src="js/header.js"></script>
+</html>
