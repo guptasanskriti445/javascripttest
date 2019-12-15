@@ -1,0 +1,46 @@
+#h2{
+    
+    color: rgb(100, 43, 86);
+}
+#button
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+}
+.changecolor{
+    background-color:blue;
+    color: white;
+}
+.active{
+    background-color: black;
+    color: chartreuse;
+    
+}
+#Css, #javascript
+{
+    display: none;
+}
+.dot {
+    
+
+    
+    margin: 0 2px;
+    background-color: #bbb;
+    color: black;
+    
+    display: inline-block;
+    
+  }
+  
+  .pactive, .dot:hover {
+    background-color: rgb(53, 11, 11);
+color: darkgreen;
+  }

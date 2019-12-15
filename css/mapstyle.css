@@ -1,0 +1,11 @@
+.map {
+    height: 680px;
+    width: 100%;
+}
+.ol-control button {
+    background: #ffffff;
+    color: #000000;
+}
+.ol-control button:hover{
+    background-color: #776f6f;
+}

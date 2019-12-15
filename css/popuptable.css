@@ -1,0 +1,32 @@
+.menubar{
+    display: inline-grid;
+    width: 200px;
+  height: 700px;
+  overflow-y: auto;
+  float: left;
+  position: fixed;
+}
+button.menubutton {
+    padding: 15px;
+    background-repeat: repeat-x;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    border: none;
+}
+.popupmenu{
+    float: right;
+    text-align: left;
+  height: 700px;
+width: 1300px;
+overflow-y: auto;
+}
+#popupid{
+    display: none;
+} 
+.showtable{
+    border: 3px solid #49b085;
+    width: 400px;
+    background: papayawhip;
+}

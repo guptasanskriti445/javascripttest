@@ -1,0 +1,47 @@
+.box:nth-of-type(even){
+    background-color: dimgray;
+    color: white; 
+    
+}
+.box:nth-of-type(odd){
+    background-color: black;
+    color: white;
+}
+/* .bleft{
+    width: 800px;
+    float: left;  
+    
+    border-right:3px solid white ;
+    padding-left: 5px;
+			}
+			.bcenter
+			{
+                float:center;
+                padding-left: 5px;
+            }		
+            .edit{
+                right: 0em;
+            }	 */
+    .box div {
+        display: inline-block;
+        width: 30em;
+        padding: 5px;
+    }
+    .bleft {
+        border-right: 1px solid #fff;
+    }
+
+    .bright button {
+        /* right: 0px; */
+        padding-right: 5px;
+         float: right;
+        width: 80px;
+    }
+    /* .btext{
+        display: none !important;
+    } */
+    .heading{
+        text-align: center;
+        font-size: 5em;
+    }
+    

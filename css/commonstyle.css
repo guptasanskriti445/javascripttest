@@ -1,0 +1,36 @@
+.menu{
+    position: absolute;
+    top: 60px;
+    right: 16px;
+    z-index: 999;
+}
+.menubutton {
+    position: absolute;
+    top: 90px;
+    right: 16px;
+    z-index: 999;
+    
+}
+
+#menubutton{
+    display: none;
+}
+
+
+.normalbutton{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+
+   
+}
+.active, .normalbutton:hover{
+    background-color: rgb(41, 6, 6);
+  color: white  ;
+}
+
+  
