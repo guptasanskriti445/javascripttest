@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head>
+    <link rel="stylesheet" href="css/addtextbox.css" type="text/css">
+    <script src="js/addtextbox.js"></script>
+</head>
+<body>
+<div>
+<h2 id="h2" align="center">Add and remove text box</h2>
+<div id="button">
+<button type="button" name="add" onclick="addtextbox()" >Add</button>
+<button type="button" name="delete" onclick="removetextbox()" >delete</button>
+</div>
+<div id="textbox">
+
+</div>
+<h2 id="h2" align="center">Add and remove check box</h2>
+<div id="button">
+<button type="button" name="add" onclick="addcheckbox()" >Add</button>
+<button type="button" name="delete" onclick="removecheckbox()" >delete</button>
+    <button type="button" name="check" onclick="checkall()">Check All</button>
+    <button type="button" name="check" onclick="uncheckall()">Check All</button>
+
+</div>
+<div id="checkbox">
+</div>
+<h2 id="h2" align="center">change button color</h2>
+<div id="button">
+    <button id="btn" type="button" class="changecolor" onclick="setcolor()"  onclick="changecolor()">change color</button>
+</div>
+<h2 id="h2" align="center">Show messager</h2>
+<div ><div id="button" >
+<button class="dot pactive" onclick="currentSlide(1)">HTML</button>
+<button class="dot" onclick="currentSlide(2)">CSS</button>
+<button class="dot" onclick="currentSlide(3)">JavaScript</button>
+</div>
+<div id="html" class="para">
+    HTML is the standard markup language for creating Web pages.<br>
+
+HTML stands for Hyper Text Markup Language<br>
+HTML describes the structure of a Web page<br>
+HTML consists of a series of elements<br>
+HTML elements tell the browser how to display the content<br>
+HTML elements are represented by tags<br>
+HTML tags label pieces of content such as "heading", "paragraph", "table", and so on<br>
+Browsers do not display the HTML tags, but use them to render the content of the page
+</div>
+<div id="Css" class="para">
+    CSS stands for Cascading Style Sheets<br>
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media<br>
+CSS saves a lot of work. It can control the layout of multiple web pages all at once<br>
+External stylesheets are stored in CSS files
+
+</div>
+<div id="javascript" class="para">
+    avaScript is the Programming Language for the Web<br>
+
+JavaScript can update and change both HTML and CSS<br>
+
+JavaScript can calculate, manipulate and validate data<br>
+</div>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
